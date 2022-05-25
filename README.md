@@ -15,6 +15,8 @@ Ojetivo Especifico
 
 ![image](https://user-images.githubusercontent.com/105617383/170131399-bccdb7f3-ccb0-4a12-b8c4-31efcc83b559.png)
 ![image](https://user-images.githubusercontent.com/105617383/170366811-a0be2c08-e75b-4a46-a0f6-b9a50cf2aa9a.png)
+![image](https://user-images.githubusercontent.com/105617383/170372647-84d4713e-057d-484f-b82a-b2866093b891.png)
+![image](https://user-images.githubusercontent.com/105617383/170373940-3566fdb8-d289-46bc-8ddd-c71d02407807.png)
 
 3.EXPLICAION Y RESOLUCION DE  EJERCICIOS
 
