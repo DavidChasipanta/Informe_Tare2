@@ -181,11 +181,17 @@ V = 20V     →  →  →          R = 0.2Ω       →  →  →    V = 30v
 
 ![image](https://user-images.githubusercontent.com/105617383/170336907-c40d1f88-8520-439e-8e84-121f6d00e789.png)
 
-**(a)**![image](https://user-images.githubusercontent.com/105617383/170418362-5d15f727-1a81-42b2-843c-aa149daebf5a.png)
+(a)
 
-**(b)**![image](https://user-images.githubusercontent.com/105617383/170418410-5ffd8b39-e3f7-4131-aed3-c41816dfe4de.png)
+![image](https://user-images.githubusercontent.com/105617383/170418362-5d15f727-1a81-42b2-843c-aa149daebf5a.png)
 
-**(c)**![image](https://user-images.githubusercontent.com/105617383/170418451-fb1666d5-48fa-48d2-a741-3e87cb5e4a0b.png)
+(b)
+
+![image](https://user-images.githubusercontent.com/105617383/170418410-5ffd8b39-e3f7-4131-aed3-c41816dfe4de.png)
+
+(c)
+
+![image](https://user-images.githubusercontent.com/105617383/170418451-fb1666d5-48fa-48d2-a741-3e87cb5e4a0b.png)
 
 **SECCIÓN 3-4 Cálculo de la resistencia**
 
