@@ -141,6 +141,13 @@ V = 20V     →  →  →          R = 0.2Ω       →  →  →    V = 30v
 
 ![image](https://user-images.githubusercontent.com/105617383/170335816-f472791f-2c10-49cc-90ac-a94ec994919d.png)
 
+Resistencia variable 120-100 = 20 V
+
+Corriente real I = 20/ 8 = 2,5 A
+
+El fusible debe ser de 2.5 A para proteger el circuito.
+
+
 **SECCIÓN 3-3 Cálculo de voltaje**
 
 **24. Calcule el voltaje para cada valor de I y R:**
