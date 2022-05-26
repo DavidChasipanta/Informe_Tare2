@@ -18,6 +18,9 @@ Ojetivo Especifico
 ![image](https://user-images.githubusercontent.com/105617383/170375353-5fa097f4-1d1f-4811-b20f-50d3083d9e37.png)
 ![image](https://user-images.githubusercontent.com/105617383/170372647-84d4713e-057d-484f-b82a-b2866093b891.png)
 ![image](https://user-images.githubusercontent.com/105617383/170373940-3566fdb8-d289-46bc-8ddd-c71d02407807.png)
+![image](https://user-images.githubusercontent.com/105617383/170391730-06d9f8f2-8c00-4d0d-aa3b-34db1ac86a4a.png)
+![image](https://user-images.githubusercontent.com/105617383/170392534-2b6dadb1-ea15-4e59-b979-df6dc938f59c.png)
+![image](https://user-images.githubusercontent.com/105617383/170392704-930854f5-063a-4d89-b7d7-4151e9fea705.png)
 
 3.EXPLICAION Y RESOLUCION DE  EJERCICIOS
 
