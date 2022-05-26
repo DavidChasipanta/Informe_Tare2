@@ -398,6 +398,7 @@ Eficiencia = (Pentrada)/(Psalida)→ Psalida = Pentrada/Eficiencia →  Psalida 
 
 4.VIDEO
 
+https://youtu.be/JP1PRYdNWeI
 
 5.CONCLUCIONES
 
