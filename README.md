@@ -406,6 +406,7 @@ Eficiencia = (Pentrada)/(Psalida)→ Psalida = Pentrada/Eficiencia →  Psalida 
 * También se tiene que para poder hallar la cantidad máxima de potencia que un resistor puede disipar sin que sufra daños por calentamiento excesivo, existe la potencia nominal, la cual no está relacionada con el valor de la resistencia, sino que está relacionada por tres cosas: la composición física, el tamaño y el área de la resistencia
 
 * Para la localización de fallas en un circuito debemos tomar en cuenta tan solo 3 pasos iniciando con un análisis para ir localizando las fallas, después vamos a planificar de que manera vamos a solucionarlo de esta manera para ahorrar tiempo y por ultimo realizaremos mediciones para reducir las posibles fallas.
+
 6.BIBLIOGRAFIA
 
 Floyd, T. (2007). Principios de circuitos eléctricos. PEARSON Educación. 
