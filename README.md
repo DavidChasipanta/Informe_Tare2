@@ -85,26 +85,41 @@ image
 
 12.Si se desea incrementar la cantidad de corriente en un resistor de 100 mA a 150 mA cambiando la fuente de 20 V, ¿en cuántos volts deberá cambiar la fuente? ¿A qué nuevo valor deberá ser ajustada?
 
-IR = 100mA      →         R = V/IR              →  V = Ir * A
+**IR = 100mA   →  →  →         R = V/IR        →  →  →   V = Ir * A**
 
-Ir = 150mA         →      R = 20V/100mA          →  
+***Ir = 150mA   →  →  →     R = 20V/100mA    →  →  →  V = 150mA * 0.2Ω***
 
- V = 20V           →      R = 0.2Ω
+***V = 20V     →  →  →          R = 0.2Ω       →  →  →    V = 30v***
+ 
+ **- SE cambiaria la fuente a 30v**
+ 
 14.¿La gráfica del problema 13 indica una relación lineal entre voltaje y corriente? Explique su respuesta.
+
+![image](https://user-images.githubusercontent.com/105617383/170447063-bbd3c9c0-ba5d-4c10-b845-e575f381bf40.png)
 
 SECCIÓN 3-2 Cálculo de la corriente
 
 16. Determine la corriente en cada caso:
 
-(a) V = 9 V,   R = 2.7 k
+***(a) V = 9 V,   R = 2.7 kΩ***    
 
-(b) V = 5.5 V, R = 10 kΩ
+**→    I = V/R  →  I = 9 v/2.7 kΩ    →    I = 18.15 mA**
 
-(c) V = 40 V, R = 68 kΩ
+**(b) V = 5.5 V, R = 10 kΩ***      
 
-(d) V = 1 kV, R = 2.2 kΩ
+**→    I = V/R  →  I = 5.5 v/10 kΩ   →    I = 0.55 mA**
 
-(e) V = 66 kV, R = 10 MΩ
+**(c) V = 40 V, R = 68 kΩ**     
+
+***→    I = V/R  →  I = 40 v/68 kΩ    →    I = 0.59 mA***
+
+***(d) V = 1 kV, R = 2.2 kΩ***    
+
+***→    I = V/R  →  I = 1 kV/2.2 kΩ   →    I = 0.45 A***
+
+***(e) V = 66 kV, R = 10 MΩ***
+
+***→    I = V/R  →  I = 66 kV/10 MΩ   →    I = 6.6 mA***
 
 18. Cierto resistor tiene el siguiente código de colores: naranja, naranja, rojo, oro. Determine las corrientes máxima y mínima esperadas cuando se conecta una fuente de 12 V a través del resistor.
 
@@ -136,7 +151,7 @@ SECCIÓN 3-3 Cálculo de voltaje
 
 (b) I = 50 mA, R = 33 Ω
 
-![image](https://user-images.githubusercontent.com/105617383/170416626-ebc0011c-be84-421b-b251-bb9d6f6ca090.png)
+![image](https://user-images.githubusercontent.com/105617383/170446467-fb7fb06d-c071-4295-a65e-10cf0f9381ea.png)
 
 (c) I = 3 A, R = 5.6 kΩ
 
@@ -144,7 +159,7 @@ SECCIÓN 3-3 Cálculo de voltaje
 
 (d) I = 1.6 mA, R = 2.2 kΩ
 
-![image](https://user-images.githubusercontent.com/105617383/170416693-1db80da0-2087-4cf5-b64f-6a78b5da2fa7.png)
+![image](https://user-images.githubusercontent.com/105617383/170446544-c353a5fa-ba06-4fd0-b46f-a942b267c250.png)
 
 (e) I = 250 μA, R = 1.0 kΩ
 
@@ -166,6 +181,11 @@ SECCIÓN 3-3 Cálculo de voltaje
 
 ![image](https://user-images.githubusercontent.com/105617383/170336907-c40d1f88-8520-439e-8e84-121f6d00e789.png)
 
+**(a)**![image](https://user-images.githubusercontent.com/105617383/170418362-5d15f727-1a81-42b2-843c-aa149daebf5a.png)
+
+**(b)**![image](https://user-images.githubusercontent.com/105617383/170418410-5ffd8b39-e3f7-4131-aed3-c41816dfe4de.png)
+
+**(c)**![image](https://user-images.githubusercontent.com/105617383/170418451-fb1666d5-48fa-48d2-a741-3e87cb5e4a0b.png)
 
 SECCIÓN 3-4 Cálculo de la resistencia
 
@@ -200,6 +220,10 @@ PROBLEMAS
 SECCIÓN 4-1 Energía y potencia
 
 2. Demuestre que hay 3.6x10^6 joules en un kilowatt-hora.
+
+***1 kw= 1000 J/s***
+
+**1kw/h= 1000j/s * (3600s / 1h)= 3.6x10^6 J
 
 4. Cuántos watts se utilizan cuando se consumen 7500 J de energía en 5 h?
 
