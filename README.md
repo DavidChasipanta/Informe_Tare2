@@ -85,7 +85,11 @@ image
 
 12.Si se desea incrementar la cantidad de corriente en un resistor de 100 mA a 150 mA cambiando la fuente de 20 V, ¿en cuántos volts deberá cambiar la fuente? ¿A qué nuevo valor deberá ser ajustada?
 
+IR = 100mA      →         R = V/IR              →  V = Ir * A
 
+Ir = 150mA         →      R = 20V/100mA          →  
+
+ V = 20V           →      R = 0.2Ω
 14.¿La gráfica del problema 13 indica una relación lineal entre voltaje y corriente? Explique su respuesta.
 
 SECCIÓN 3-2 Cálculo de la corriente
@@ -102,9 +106,21 @@ SECCIÓN 3-2 Cálculo de la corriente
 
 (e) V = 66 kV, R = 10 MΩ
 
-18. Cierto resistor tiene el siguiente código de colores: naranja, naranja, rojo, oro. Determine las corrien�tes máxima y mínima esperadas cuando se conecta una fuente de 12 V a través del resistor.
+18. Cierto resistor tiene el siguiente código de colores: naranja, naranja, rojo, oro. Determine las corrientes máxima y mínima esperadas cuando se conecta una fuente de 12 V a través del resistor.
+
+**-Coolores de la resistencia mencionada obtienen un valor de 3.3kΩ, para calcular el valor maximo de la corriente y el valor minimo se considera la tolerancia, en este caso la tolerancoia es del 5 %.Por lo tanto, se resta y se suma el 5 % al valor de la resistencia.**
+
+**-Se obtiene que el nuevo valor +5% es de 3.35kΩ, la corriente que pasa por este valor utilizando la ley de ohm es de 3.58mA.***
+
+**-El valor obtenido -5% de tolarancia es de 3.25%. la corriente que pasa por este valor utilizando la ley de ohm es de 3.69mA.***
+
+**-La respuesta final: El valor de corriente es de 3.69mA mientras que el valor minimo es de 3.58mA**
 
 20. Se conecta un resistor de 5 bandas a través de una fuente de 12 V. Determine la corriente si el código de colores es naranja, violeta, amarillo, oro, café.
+
+![image](https://user-images.githubusercontent.com/105617383/170416156-c25aa028-9095-494b-a963-87591e018971.png)
+
+**-El valor de la resistencia es de 37.4kΩ. Para calcular la corriente, se utlizar la ley de ohm I= V/R, el resultado es: 0.32A**
 
 22. El potenciómetro conectado a un reóstato en la figura 3-21 se utiliza para controlar la corriente suministrada a un elemento calentador. Cuando el reóstato se ajusta a un valor de 8 o menos, el elemento calentador puede quemarse. ¿Cuál es el valor nominal del fusible requerido para proteger el circuito si el voltaje a través del elemento calentador en el punto de corriente máxima es de 100 V, y el voltaje a través del reóstato es la diferencia entre el voltaje del elemento calentador y el voltaje de la fuente?
 
@@ -113,21 +129,38 @@ SECCIÓN 3-2 Cálculo de la corriente
 SECCIÓN 3-3 Cálculo de voltaje
 
 24. Calcule el voltaje para cada valor de I y R:
+
 (a) I = 1 mA, R = 10 Ω
+
+![image](https://user-images.githubusercontent.com/105617383/170416595-eafa33c4-c244-42a2-b262-f4045c62f945.png)
 
 (b) I = 50 mA, R = 33 Ω
 
+![image](https://user-images.githubusercontent.com/105617383/170416626-ebc0011c-be84-421b-b251-bb9d6f6ca090.png)
+
 (c) I = 3 A, R = 5.6 kΩ
+
+![image](https://user-images.githubusercontent.com/105617383/170416658-ec28f8f0-71fa-4a8d-b8b8-d5ea0496083d.png)
 
 (d) I = 1.6 mA, R = 2.2 kΩ
 
+![image](https://user-images.githubusercontent.com/105617383/170416693-1db80da0-2087-4cf5-b64f-6a78b5da2fa7.png)
+
 (e) I = 250 μA, R = 1.0 kΩ
+
+![image](https://user-images.githubusercontent.com/105617383/170416707-42bff33d-a7ab-4905-b931-24bd51a689fe.png)
 
 (f) I = 500 mA, R = 1.5 MΩ
 
+![image](https://user-images.githubusercontent.com/105617383/170416735-2132356c-7cbc-4199-a666-48ed0db3664f.png)
+
 (g) I = 850 μA, R = 10 MΩ
 
+![image](https://user-images.githubusercontent.com/105617383/170416757-30895cb4-f6a4-4894-808b-ff3e60e53ecc.png)
+
 (h) I = 75 μA, R = 47 Ω
+
+![image](https://user-images.githubusercontent.com/105617383/170416781-d965093a-8e1e-4f32-a92a-ec9f0cff5233.png)
 
 26. signe un valor de voltaje a cada una de las fuentes que aparecen en los circuitos de la figura 3-22 para obtener las cantidades de corriente indicadas.
 
@@ -180,7 +213,7 @@ SECCIÓN 4-1 Energía y potencia
 
 (d) 50,000 W
 
-8. Convierta las siguientes cantidades en miliwatts:
+8 Convierta las siguientes cantidades en miliwatts:
 
 (a) 1 W
 
@@ -190,7 +223,7 @@ SECCIÓN 4-1 Energía y potencia
 
 (d) 0ñ.0125 W
 
-10. Convierta las siguientes cantidades en watts:
+10.Convierta las siguientes cantidades en watts:
 
 (a) 1.5 kW
 
@@ -200,38 +233,71 @@ SECCIÓN 4-1 Energía y potencia
 
 (d) 9000 μW
 
-12. Si se permite que un foco de 300 W permanezca encendido continuamente durante 30 días, ¿cuántos kilowatts-hora de energía consume?
+12.Si se permite que un foco de 300 W permanezca encendido continuamente durante 30 días, ¿cuántos kilowatts-hora de energía consume?
 
-14. Convierta 5 x 10^6 watts-minutos en kWh
+**P= 300 watts **
 
-16. ¿Durante cuántos segundos debe haber 5 A de corriente a través de un resistor de 47 Ω para consumir 25 J?
+**Transformando en Kw P= 0.3 kw**
+
+**t= 30 dias **
+
+**transformando en horas t= 720h**
+
+**calculando: (0,3 Kw) * (720h)= 216 Kwh.**
+
+
+14.Convierta 5 x 10^6 watts-minutos en kWh
+
+**5x10^6 W/min  = 1 * 10^(-3) Kw / 1W = 500 Kw/min * (60 m)/(1 h)  = 3 * 10^5 Kwh**
+
+16.¿Durante cuántos segundos debe haber 5 A de corriente a través de un resistor de 47 Ω para consumir 25 J?
+
+**P = W/t**
+
+**P = I^2 * R**
+
+**P = (5 A)^2 * (47Ω) = 1175 W**
+
+**t = W/P = (25 J)/(1175 W) = 0.02 segundos**
 
 SECCIÓN 4-2 Potencia en un circuito eléctrico
 
-18. Si un resistor tiene 5.5 V entre sus extremos y 3 mA a través de él, ¿cuál es la potencia?
+18.Si un resistor tiene 5.5 V entre sus extremos y 3 mA a través de él, ¿cuál es la potencia?
 
-20. ¿Cuál es la potencia cuando 500 mA de corriente recorren un resistor de 4.7 kΩ?
+**P= V * I**
 
-22. Si entre los extremos de un resistor de 680 Ω existen 60 V, ¿cuál es la potencia?
+**P= (5.5 V) * (3 * 10^-3 A)**
 
-24. n resistor tiene que transportar 2 A de corriente y manejar 100 W de potencia, ¿de cuántos ohms debe ser? Suponga que el voltaje puede ser ajustado a cualquier valor requerido.
+**P= 0.016 W**
+
+20.¿Cuál es la potencia cuando 500 mA de corriente recorren un resistor de 4.7 kΩ?
+
+22.Si entre los extremos de un resistor de 680 Ω existen 60 V, ¿cuál es la potencia?
+
+24.Un resistor tiene que transportar 2 A de corriente y manejar 100 W de potencia, ¿de cuántos ohms debe ser? Suponga que el voltaje puede ser ajustado a cualquier valor requerido.
 
 SECCIÓN 4-3 Clasificaciones de potencia en resistores
 
-26. Un resistor de 6.8 kΩ se quemó en un circuito. Usted debe reemplazarlo por otro con el mismo valor de resistencia. Si el resistor transporta 10 mA, ¿cuál deberá ser su clasificación de potencia? Suponga que dispone de resistores en todas las clasificaciones de potencia estándar.
+26.Un resistor de 6.8 kΩ se quemó en un circuito. Usted debe reemplazarlo por otro con el mismo valor de resistencia. Si el resistor transporta 10 mA, ¿cuál deberá ser su clasificación de potencia? Suponga que dispone de resistores en todas las clasificaciones de potencia estándar.
 SECCIÓN 4-4 Conversión de energía y caída de voltaje en una resistencia
 
-28. En cada circuito de la figura 4-13, asigne la polaridad apropiada de la caída de voltaje entre los extremos del resistor.
-image
+28.En cada circuito de la figura 4-13, asigne la polaridad apropiada de la caída de voltaje entre los extremos del resistor.
+
+![image](https://user-images.githubusercontent.com/105617383/170412236-f20557db-9fc6-4444-a8e7-3ac67aea1441.png)
 
 SECCIÓN 4-5 Fuentes de potencia
 
-30. Suponga que una batería D alcalina puede mantener un voltaje promedio de 1.25 V durante 90 horas en una carga de 10 Ω antes de volverse inutilizable. ¿Qué promedio de potencia se suministra a la carga durante la vida de la batería?
+30 Suponga que una batería D alcalina puede mantener un voltaje promedio de 1.25 V durante 90 horas en una carga de 10 Ω antes de volverse inutilizable. ¿Qué promedio de potencia se suministra a la carga durante la vida de la batería?
 
-32. Una batería puede proporcionar un promedio de 1.5 A de corriente durante 24 h. ¿Cuál es su capacidad en amperes-hora?
+32.Una batería puede proporcionar un promedio de 1.5 A de corriente durante 24 h. ¿Cuál es su capacidad en amperes-hora?
 
-34. Si la capacidad de una batería es de 650 mAh, ¿cuánta corriente promedio suministrará durante 48 h?
+34.Si la capacidad de una batería es de 650 mAh, ¿cuánta corriente promedio suministrará durante 48 h?
 
-36. Para operar al 85% de eficiencia, ¿cuánta potencia de salida debe producir una fuente si la potencia de entrada es de 5 W?
+36.Para operar al 85% de eficiencia, ¿cuánta potencia de salida debe producir una fuente si la potencia de entrada es de 5 W?
 
+4.VIDEO
+
+5.CONCLUCIONES
+
+6.BIBLIOGRAFIA
 
