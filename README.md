@@ -107,19 +107,19 @@ SECCIÓN 3-2 Cálculo de la corriente
 
 **(b) V = 5.5 V, R = 10 kΩ***      
 
-**→    I = V/R  →  I = 5.5 v/10 kΩ   →    I = 0.55 mA**
+**→    I = V/R  →  I = 5.5 v/10 kΩ   →    I = 0.55 mA***
 
 **(c) V = 40 V, R = 68 kΩ**     
 
-***→    I = V/R  →  I = 40 v/68 kΩ    →    I = 0.59 mA***
+**→   I = V/R  →  I = 40 v/68 kΩ    →    I = 0.59 mA***
 
-***(d) V = 1 kV, R = 2.2 kΩ***    
+**(d) V = 1 kV, R = 2.2 kΩ***    
 
-***→    I = V/R  →  I = 1 kV/2.2 kΩ   →    I = 0.45 A***
+**→    I = V/R  →  I = 1 kV/2.2 kΩ   →    I = 0.45 A***
 
-***(e) V = 66 kV, R = 10 MΩ***
+**(e) V = 66 kV, R = 10 MΩ***
 
-***→    I = V/R  →  I = 66 kV/10 MΩ   →    I = 6.6 mA***
+**→    I = V/R  →  I = 66 kV/10 MΩ   →    I = 6.6 mA***
 
 18. Cierto resistor tiene el siguiente código de colores: naranja, naranja, rojo, oro. Determine las corrientes máxima y mínima esperadas cuando se conecta una fuente de 12 V a través del resistor.
 
@@ -191,27 +191,51 @@ SECCIÓN 3-4 Cálculo de la resistencia
 
 28. Encuentre la resistencia de un reóstato para cada valor de V e I:
 
-(a) V = 10 V, I = 2 A
+(a) V = 10 V, I = 2 A      
 
-(b) V = 90 V, I = 45 A
+→  R = V/I  = 10 V/2 A = 5 Ω
 
-(c) V = 50 V, I = 5 A
+(b) V = 90 V, I = 45 A     
 
-(d) V = 5.5 V, I = 10 A
+→  R = V/I  = 90 V/45 A = 2 Ω
 
-(e) V = 1 kV, I = 1 mA
+(c) V = 50 V, I = 5 A       
+
+→  R = V/I  = 50 V/5A = 10 Ω
+
+(d) V = 5.5 V, I = 10 A     
+
+→  R = V/I  = 5.5 V/10 A = 0.55 Ω
+
+(e) V = 1 kV, I = 1 mA      
+
+→  R = V/I  = 1 kV/1 mA = 1 MΩ
 
 30. Se aplican seis volts a través de un resistor. Se mide una corriente de 2 mA. ¿Cuál es el valor del resistor?
 
+R = V/I  =  6 V/2 mA  = 3 kΩ
+
 32. Se desconoce la resistencia de cierto dispositivo eléctrico. Usted dispone de una batería de 12 V y un amperímetro. ¿Cómo determinaría el valor de la resistencia desconocida? Trace las conexiones de circuito necesarias.
 
-34. Un circuito atenuador de luz de 120 V es controlado por un reóstato y está protegido contra corriente excesiva mediante un fusible de 2 A. ¿A qué valor de resistencia mínima puede ser ajustado el reóstato sin que se funda el fusible? Suponga una resistencia de la lámpara de 15 Ω.
+R = V/I = 12 V/1 A = 12 Ω
+
+34.Un circuito atenuador de luz de 120 V es controlado por un reóstato y está protegido contra corriente excesiva mediante un fusible de 2 A. ¿A qué valor de resistencia mínima puede ser ajustado el reóstato sin que se funda el fusible? Suponga una resistencia de la lámpara de 15 Ω.
+
+V = 120 V
+
+yo = 2 A
+
+R = V / yo
+
+R = 120 V / 2 A = 60 Ω
 
 SECCIÓN 3-5 Introducción a la localización de fallas
 
-36. En el circuito de luces de la figura 3-25, identifique el foco fundido con base en la serie de lecturas de ohmmetro mostradas.
+36.En el circuito de luces de la figura 3-25, identifique el foco fundido con base en la serie de lecturas de ohmmetro mostradas.
 
 ![image](https://user-images.githubusercontent.com/105617383/170336758-a66afbfb-de82-4698-9b3d-79457abce1a6.png)
+
+***El tercer foco se encuentra fundido.***
 
 CAPÍTULO 4
 
@@ -219,43 +243,70 @@ PROBLEMAS
 
 SECCIÓN 4-1 Energía y potencia
 
-2. Demuestre que hay 3.6x10^6 joules en un kilowatt-hora.
+2.Demuestre que hay 3.6x10^6 joules en un kilowatt-hora.
 
 ***1 kw= 1000 J/s***
 
-**1kw/h= 1000j/s * (3600s / 1h)= 3.6x10^6 J
+***1kw/h= 1000j/s * (3600s / 1h)= 3.6x10^6 J***
 
 4. Cuántos watts se utilizan cuando se consumen 7500 J de energía en 5 h?
 
+***P = J/t = 7500J/5h * (1h/3600s) = 0.4166 watts***
+
 6. Convierta las siguientes cantidades en kilowatts:
 
-(a) 1000 W
+***(a) 1000 W= ***
 
-(b) 3750 W
+1000W * (0.001kw/1W)=1 kw
 
-(c) 160 W
+***(b) 3750 W=***
 
-(d) 50,000 W
+3750W * (0.001kw/1W)=3.75 kw
+
+***(c) 160 W=*** 
+
+160W * (0.001kw/1W)= 0.16 kw
+
+***(d) 50,000 W=***
+
+50000W * (0.001kw/1W)= 50 kw
 
 8 Convierta las siguientes cantidades en miliwatts:
 
-(a) 1 W
+(a.) 1 W= 
 
-(b) 0.4 W
+1W*(1000 mW/1W)=1000 mW
 
-(c) 0.002 W
+ (b.) 0.4 W=
+ 
+ 0.4W*(1000 mW/1W)=400 mW
+ 
+ (c.) 0.002 W=
+ 
+ 0.002 W*(1000 mW/1W)=2 mW
+ 
+ (d.) 0.0125W=
+ 
+ 0.0125W*(1000 mW/1W)=12.5 mW
 
-(d) 0ñ.0125 W
 
 10.Convierta las siguientes cantidades en watts:
 
-(a) 1.5 kW
+(a.) 1.5 kW =
 
-(b) 0.5 MW
+1.5 Kw*(1x10^3W/1kW)=1500 W
 
-(c) 350 mW
+(b..) 0.5 MW=
 
-(d) 9000 μW
+0.5 MW*(1x10^6W/1MW)=5x10^6 W
+
+(c) 350 mW=
+
+350 mW*(1x10^-3/1mW)=0.35 W
+
+(d.) 9000µW=
+
+9000µW*(1x10^-6/1 µW)=9x10^-3 W
 
 12.Si se permite que un foco de 300 W permanezca encendido continuamente durante 30 días, ¿cuántos kilowatts-hora de energía consume?
 
@@ -296,16 +347,31 @@ SECCIÓN 4-2 Potencia en un circuito eléctrico
 
 20.¿Cuál es la potencia cuando 500 mA de corriente recorren un resistor de 4.7 kΩ?
 
+P= I^2*R
+
+P= (0.5 A)^2*(4700 Ω)
+
+P= 1175 W
+
 22.Si entre los extremos de un resistor de 680 Ω existen 60 V, ¿cuál es la potencia?
 
+P = V^2/R = 60 V/680 Ω = 0.09 W
+
 24.Un resistor tiene que transportar 2 A de corriente y manejar 100 W de potencia, ¿de cuántos ohms debe ser? Suponga que el voltaje puede ser ajustado a cualquier valor requerido.
+
+**P = I^2 * R   →    R = P/I^2   →   R = 100 W/(2 A)^2    R = 6.25 Ω***
 
 SECCIÓN 4-3 Clasificaciones de potencia en resistores
 
 26.Un resistor de 6.8 kΩ se quemó en un circuito. Usted debe reemplazarlo por otro con el mismo valor de resistencia. Si el resistor transporta 10 mA, ¿cuál deberá ser su clasificación de potencia? Suponga que dispone de resistores en todas las clasificaciones de potencia estándar.
+
+P = I^2 * R = (10 mA)(6.8  kΩ) = 0.68 kW
+
 SECCIÓN 4-4 Conversión de energía y caída de voltaje en una resistencia
 
 28.En cada circuito de la figura 4-13, asigne la polaridad apropiada de la caída de voltaje entre los extremos del resistor.
+
+![image](https://user-images.githubusercontent.com/105617383/170451532-75f1e5fe-4a5c-4252-9096-d20b5c26e294.png)
 
 ![image](https://user-images.githubusercontent.com/105617383/170412236-f20557db-9fc6-4444-a8e7-3ac67aea1441.png)
 
@@ -313,15 +379,34 @@ SECCIÓN 4-5 Fuentes de potencia
 
 30 Suponga que una batería D alcalina puede mantener un voltaje promedio de 1.25 V durante 90 horas en una carga de 10 Ω antes de volverse inutilizable. ¿Qué promedio de potencia se suministra a la carga durante la vida de la batería?
 
+I=1.25V/10 Ω =0.125A
+
+Ah= I.h = 0.125A * 90 = 11.25
+
+Promedio de la potencia seria 11.25 Ah
+
 32.Una batería puede proporcionar un promedio de 1.5 A de corriente durante 24 h. ¿Cuál es su capacidad en amperes-hora?
+
+capacidad = (1.5 A)(24 h) = 36 Ah
 
 34.Si la capacidad de una batería es de 650 mAh, ¿cuánta corriente promedio suministrará durante 48 h?
 
+capacidad = (I)(x h)  →   I = (650 mAh)/(48 h)   →    I = 13.54 mA
+
 36.Para operar al 85% de eficiencia, ¿cuánta potencia de salida debe producir una fuente si la potencia de entrada es de 5 W?
+
+Eficiencia = (Pentrada)/(Psalida)→ Psalida = Pentrada/Eficiencia →  Psalida = 5 W/85 %   →  Psalida = 5.89 W
 
 4.VIDEO
 
+
 5.CONCLUCIONES
 
+* Como conclusión se tiene que a medida que los electrones fluyen por cada resistencia en un circuito estos ceden algo de su energía en forma de calor, por lo que quiere decir que los electrones tienen más energía cuando entran a una resistencia que cuando salen de esta.
+
+* También se tiene que para poder hallar la cantidad máxima de potencia que un resistor puede disipar sin que sufra daños por calentamiento excesivo, existe la potencia nominal, la cual no está relacionada con el valor de la resistencia, sino que está relacionada por tres cosas: la composición física, el tamaño y el área de la resistencia
+
+* Para la localización de fallas en un circuito debemos tomar en cuenta tan solo 3 pasos iniciando con un análisis para ir localizando las fallas, después vamos a planificar de que manera vamos a solucionarlo de esta manera para ahorrar tiempo y por ultimo realizaremos mediciones para reducir las posibles fallas.
 6.BIBLIOGRAFIA
 
+Floyd, T. (2007). Principios de circuitos eléctricos. PEARSON Educación. 
